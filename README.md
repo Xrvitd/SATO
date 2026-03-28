@@ -28,21 +28,30 @@
 
 <p align="center">
   <a href="#">
-    <img src="https://img.shields.io/badge/Paper-PDF-red?logo=adobeacrobatreader" alt="Paper">
+    <img src="https://img.shields.io/badge/Paper-PDF-red?logo=adobeacrobatreader" alt="Paper[Coming]">
   </a>&nbsp;
   <a href="#">
-    <img src="https://img.shields.io/badge/Project-Page-blue?logo=googlechrome" alt="Project Page">
+    <img src="https://img.shields.io/badge/Project-Page-blue?logo=googlechrome" alt="Project Page[Coming]">
   </a>&nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/Code-GitHub-black?logo=github" alt="Code">
-  </a>
 </p>
 
 <p align="center">
-  <img src="https://xrvitd.github.io/images/video2.gif" width="100%" alt="SATO teaser">
+  <img src="assets/15ps.jpg" width="100%" alt="SATO teaser">
 </p>
 
 **Strips as Tokens (SATO)** enables unified, high-quality artist mesh generation with native UV segmentation. Our strip-based tokenizer supports both triangle and quad meshes without retraining and automatically segments UV charts during autoregressive generation.
+
+
+> 🚀 We are preparing the codebase for public release. Stay tuned!
+
+## 📋 Release Todo List
+
+- [ ] Release tokenizer code
+- [ ] Release pretrained checkpoints
+- [ ] Release inference code
+- [ ] Release data preprocessing code
+- [ ] Release training code
+
 
 ---
 
@@ -50,33 +59,19 @@
 
 Recent advancements in autoregressive transformers have demonstrated remarkable potential for generating artist-quality meshes. However, the token ordering strategies employed by existing methods typically fail to meet professional artist standards, where coordinate-based sorting yields inefficiently long sequences, and patch-based heuristics disrupt the continuous edge flow and structural regularity essential for high-quality modeling. To address these limitations, we propose **Strips as Tokens (SATO)**, a novel framework with a token ordering strategy inspired by triangle strips. By constructing the sequence as a connected chain of faces that explicitly encodes UV boundaries, our method naturally preserves the organized edge flow and semantic layout characteristic of artist-created meshes. A key advantage of this formulation is its unified representation, enabling the same token sequence to be decoded into either a triangle or quadrilateral mesh. This flexibility facilitates joint training on both data types: large-scale triangle data provides fundamental structural priors, while high-quality quad data enhances the geometric regularity of the outputs. Extensive experiments demonstrate that SATO consistently outperforms prior methods in terms of geometric quality, structural coherence, and UV segmentation.
 
-## Method
 
-<p align="center">
-  <img src="https://xrvitd.github.io/images/pipeline.gif" width="100%" alt="SATO pipeline">
-</p>
+## Ack
+Our code is based on these wonderful works:
+* **[DeepMesh](https://github.com/zhaorw02/DeepMesh)**
+* **[MeshMosaic](https://github.com/Xrvitd/MeshMosaic)**
+* **[BPT](https://github.com/Tencent-Hunyuan/bpt)**
+* **[Hunyuan3D-2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1/tree/main/hy3dshape)**
 
-**The Pipeline of SATO.** SATO uses a strip-based tokenizer to encode/decode both triangle and quad meshes as a unified discrete sequence. Conditioned on an input point cloud, a learnable point-cloud encoder cross-attends to the core Hourglass Transformer, which autoregressively generates token sequences that are decoded into triangle or quad meshes with native UV segmentation.
 
-Given a set of 3D points as conditioning input, our goal is to generate an artist-style mesh with organized UV segmentation. Our core contribution includes a serialization scheme that embeds macro-structural semantic cues like UV island boundaries into the token stream, and a stride-aware decoding protocol that allows the same model to generate both triangle and quadrilateral meshes.
 
-## Mesh Gallery
+## 📚 Citation
 
-<p align="center">
-  <img src="https://xrvitd.github.io/images/gallery111.gif" width="100%" alt="Mesh Gallery">
-</p>
-
-Generation results of SATO across diverse shapes, demonstrating strong generative diversity in both mesh geometry and UV segmentation. From bottom to top, it shows triangular mesh generation, shape generation with UV segmentation, and quadrilateral mesh generation. SATO supports all three tasks within a single framework and achieves compelling results on each of them.
-
-## UV Segmentation Gallery
-
-<p align="center">
-  <img src="UVG1.jpg" width="100%" alt="UV Segmentation Gallery">
-</p>
-
-**Gallery of UV unwrapping results using our generated UV segmentation.** Artists can readily apply textures to the resulting UV layout: each component of the input shape is cleanly and consistently separated into well-defined islands, enabling targeted texture painting without inadvertently affecting other parts.
-
-## BibTeX
+If you find this work useful, please cite our paper:
 
 ```bibtex
 @article{xu2026sato,
