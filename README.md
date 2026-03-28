@@ -1,7 +1,7 @@
 
 <h1 align="center">Strips as Tokens: Artist Mesh Generation<br>with Native UV Segmentation</h1>
 
-<p align="center"><b>ACM Transactions on Graphics (SIGGRAPH 2026)</b></p>
+<p align="center"><b>Conditionally Accepted by SIGGRAPH 2026</b></p>
 
 <p align="center">
   <a href="https://ruixu.me/">Rui Xu</a><sup>1,2</sup>&nbsp;
