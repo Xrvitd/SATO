@@ -66,15 +66,3 @@ Our code is based on these wonderful works:
 
 
 
-## 📚 Citation
-
-If you find this work useful, please cite our paper:
-
-```bibtex
-@article{xu2026sato,
-  title   = {Strips as Tokens: Artist Mesh Generation with Native UV Segmentation},
-  author  = {Xu, Rui and Qin, Dafei and Qiao, Kaichun and Dong, Qiujie and Pi, Huaijin and Zhang, Qixuan and Zhang, Longwen and Xu, Lan and Yu, Jingyi and Wang, Wenping and Komura, Taku},
-  journal = {ACM Transactions on Graphics (TOG)},
-  year    = {2026}
-}
-```
