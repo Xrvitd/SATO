@@ -46,10 +46,8 @@
 ## 📋 Release Todo List
 
 - [ ] Release tokenizer code
-- [ ] Release pretrained checkpoints
 - [ ] Release inference code
-- [ ] Release data preprocessing code
-- [ ] Release training code
+
 
 
 ---
