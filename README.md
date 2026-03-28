@@ -4,22 +4,22 @@
 <p align="center"><b>ACM Transactions on Graphics (SIGGRAPH 2026)</b></p>
 
 <p align="center">
-  <a href="https://ruixu.me/">Rui Xu</a><sup>1,2*</sup>&nbsp;
-  <a href="https://dafei-qin.github.io/">Dafei Qin</a><sup>1,2*</sup>&nbsp;
+  <a href="https://ruixu.me/">Rui Xu</a><sup>1,2</sup>&nbsp;
+  <a href="https://dafei-qin.github.io/">Dafei Qin</a><sup>1,2</sup>&nbsp;
   <a href="https://dolphinqiao.github.io/">Kaichun Qiao</a><sup>3,2</sup>&nbsp;
   <a href="https://qiujiedong.github.io/">Qiujie Dong</a><sup>4</sup>&nbsp;
   <a href="https://phj128.github.io/">Huaijin Pi</a><sup>1</sup>&nbsp;
   <a href="https://scholar.google.com/citations?user=YvwsqvYAAAAJ&hl=zh-CN">Qixuan Zhang</a><sup>3,2</sup>&nbsp;
   <a href="https://zhanglongwen.com/">Longwen Zhang</a><sup>3,2</sup><br>
-  <a href="http://xu-lan.com/">Lan Xu</a><sup>3†</sup>&nbsp;
+  <a href="http://xu-lan.com/">Lan Xu</a><sup>3</sup>&nbsp;
   <a href="https://www.yu-jingyi.com/">Jingyi Yu</a><sup>3</sup>&nbsp;
   <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html">Wenping Wang</a><sup>5</sup>&nbsp;
-  <a href="https://www.cs.hku.hk/index.php/people/academic-staff/taku">Taku Komura</a><sup>1†</sup>
+  <a href="https://www.cs.hku.hk/index.php/people/academic-staff/taku">Taku Komura</a><sup>1</sup>
 </p>
 
 <p align="center">
   <sup>1</sup>The University of Hong Kong&nbsp;&nbsp;
-  <sup>2</sup>Deemos Technology Co., Ltd.&nbsp;&nbsp;
+  <sup>2</sup>Deemos Technology&nbsp;&nbsp;
   <sup>3</sup>ShanghaiTech University&nbsp;&nbsp;
   <sup>4</sup>Shandong University&nbsp;&nbsp;
   <sup>5</sup>Texas A&M University<br>
