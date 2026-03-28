@@ -1,10 +1,3 @@
-<p align="center">
-  <img src="https://xrvitd.github.io/images/Logo_HKU.png" height="90" alt="HKU">&nbsp;&nbsp;&nbsp;
-  <img src="https://xrvitd.github.io/images/Logo_Deemos.png" height="90" alt="Deemos">&nbsp;&nbsp;&nbsp;
-  <img src="https://xrvitd.github.io/images/Logo_ShanghaiTech.png" height="90" alt="ShanghaiTech">&nbsp;&nbsp;&nbsp;
-  <img src="https://xrvitd.github.io/images/Logo_SDU.png" height="90" alt="SDU">&nbsp;&nbsp;&nbsp;
-  <img src="https://xrvitd.github.io/images/Logo_TAMU.png" height="90" alt="TAMU">
-</p>
 
 <h1 align="center">Strips as Tokens: Artist Mesh Generation<br>with Native UV Segmentation</h1>
 
