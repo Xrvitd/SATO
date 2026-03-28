@@ -5,14 +5,14 @@
 
 <p align="center">
   <a href="https://ruixu.me/">Rui Xu</a><sup>1,2*</sup>&nbsp;
-  Dafei Qin<sup>1,2*</sup>&nbsp;
-  Kaichun Qiao<sup>3,2</sup>&nbsp;
+  <a href="https://dafei-qin.github.io/">Dafei Qin</a><sup>1,2*</sup>&nbsp;
+  <a href="https://dolphinqiao.github.io/">Kaichun Qiao</a><sup>3,2</sup>&nbsp;
   <a href="https://qiujiedong.github.io/">Qiujie Dong</a><sup>4</sup>&nbsp;
-  Huaijin Pi<sup>1</sup>&nbsp;
-  Qixuan Zhang<sup>3,2</sup>&nbsp;
-  Longwen Zhang<sup>3,2</sup><br>
-  Lan Xu<sup>3†</sup>&nbsp;
-  Jingyi Yu<sup>3</sup>&nbsp;
+  <a href="https://phj128.github.io/">Huaijin Pi</a><sup>1</sup>&nbsp;
+  <a href="https://scholar.google.com/citations?user=YvwsqvYAAAAJ&hl=zh-CN">Qixuan Zhang</a><sup>3,2</sup>&nbsp;
+  <a href="https://zhanglongwen.com/">Longwen Zhang</a><sup>3,2</sup><br>
+  <a href="http://xu-lan.com/">Lan Xu</a><sup>3†</sup>&nbsp;
+  <a href="https://www.yu-jingyi.com/">Jingyi Yu</a><sup>3</sup>&nbsp;
   <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html">Wenping Wang</a><sup>5</sup>&nbsp;
   <a href="https://www.cs.hku.hk/index.php/people/academic-staff/taku">Taku Komura</a><sup>1†</sup>
 </p>
