@@ -23,7 +23,6 @@
   <sup>3</sup>ShanghaiTech University&nbsp;&nbsp;
   <sup>4</sup>Shandong University&nbsp;&nbsp;
   <sup>5</sup>Texas A&M University<br>
-  <sub>(* Equal contribution. † Corresponding authors.)</sub>
 </p>
 
 <p align="center">
