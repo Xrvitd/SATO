@@ -26,8 +26,8 @@
 </p>
 
 <p align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Paper-PDF-red?logo=adobeacrobatreader" alt="Paper[Coming]">
+  <a href="http://arxiv.org/abs/2604.09132">
+    <img src="https://img.shields.io/badge/Paper-PDF-red?logo=adobeacrobatreader" alt="Paper">
   </a>&nbsp;
   <a href="https://ruixu.me/html/SATO/index.html">
     <img src="https://img.shields.io/badge/Project-Page-blue?logo=googlechrome" alt="Project Page">
